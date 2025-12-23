@@ -1,7 +1,7 @@
 GROUP-2-CCIS-EVENT-PLANNING
 FINAL PROJECT 
 
-1. Create ng database sa wampserver and name it "ccis_events"
+1. Create ng database sa wampserver -> phpmyadmin and name it "ccis_events"
 2. php artisan migrate:fresh
 3. php artisan serve
 
