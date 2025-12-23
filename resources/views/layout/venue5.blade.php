@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>CCIS Department Event Planning</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/events/ccis.jpg" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Evently
+  * Template URL: https://bootstrapmade.com/evently-bootstrap-events-template/
+  * Updated: Jul 19 2025 with Bootstrap v5.3.7
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="venue-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.webp" alt=""> -->
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="{{ route('index1') }}">Home</a></li>
+          <li><a href="{{ route('about2') }}">Ticket</a></li>
+          <li><a href="{{ route('schedule3') }}">Schedule</a></li>
+          <li><a href="{{ route('speaker4') }}">Speakers</a></li>
+          <li><a href="{{ route('venue5') }}"class="active">Venue</a></li>
+          <li><a href="{{ route('gallery6') }}">Gallery</a></li>
+          <li><a href="{{ route('contact7') }}">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a href="{{ route('events.index') }}" target="_blank" class="btn btn-primary btn-getstarted">
+                API-Testing
+        </a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title dark-background" style="background-image: url(assets/img/events/R2.jpg);">
+      <div class="container position-relative">
+        <h1>Venue</h1>
+        <p>The event will be held at the SNSU Main Campus Gym, providing a secure and accommodating environment for all participants.</p>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="{{ route('index1') }}">Home</a></li>
+            <li class="current">Venue</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Venue 2 Section -->
+    <section id="venue-2" class="venue-2 section">
+
+      <div class="container">
+
+        <div class="row gy-5">
+
+          <div class="col-lg-6">
+            <div class="venue-image">
+              <img src="assets/img/events/gym.jpg" alt="Event Venue" class="img-fluid rounded">
+              <div class="venue-badge">
+                <i class="bi bi-geo-alt-fill"></i>
+                <span>Main Venue</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="venue-content">
+              <h3>SNSU Main Campus Gym</h3>
+              <div class="venue-address">
+                <i class="bi bi-geo-alt"></i>
+                <span>Narciso Street, Surigao, 8400 Surigao del Norte</span>
+              </div>
+
+              <p>Located within the SNSU Main Campus Gym on Narciso Street, Surigao City,
+                this venue provides a dependable and accommodating setting for a wide range of events.
+                Its spacious layout and accessible location make it ideal for hosting large gatherings and ensuring a comfortable experience for all attendees.</p>
+
+              <div class="venue-features">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="feature-item">
+                      <i class="bi bi-people-fill"></i>
+                      <span>2,500 Capacity</span>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="feature-item">
+                      <i class="bi bi-wifi"></i>
+                      <span>High-Speed WiFi</span>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="feature-item">
+                      <i class="bi bi-p-square-fill"></i>
+                      <span>Valet Parking</span>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="feature-item">
+                      <i class="bi bi-universal-access"></i>
+                      <span>Fully Accessible</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="venue-actions">
+                <a href="#" class="btn btn-primary">
+                  <i class="bi bi-map"></i>
+                  Get Directions
+                </a>
+                <a href="#" class="btn btn-outline-primary">
+                  <i class="bi bi-building"></i>
+                  Book Now!
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row mt-5">
+          <div class="col-lg-12">
+            <div class="venue-map">
+              <h4>Venue Location</h4>
+              <div class="map-container">
+                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d416.54203250581395!2d125.49433053563419!3d9.787518913050379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x330137d56c4f8f45%3A0x19836c21649d4301!2sSurigao%20del%20Norte%20State%20University%20-%20Main%20Campus!5e0!3m2!1sen!2sph!4v1765186584357!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                </iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-5">
+
+          <div class="col-lg-4">
+            <div class="travel-info">
+              <div class="travel-icon">
+                <i class="bi bi-airplane-fill"></i>
+              </div>
+              <h5>By Air</h5>
+              <p>Surigao Airport is approximately 15–20 minutes away from the SNSU Main Campus Gym.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="travel-info">
+              <div class="travel-icon">
+                <i class="bi bi-train-front-fill"></i>
+              </div>
+              <h5>By Tricycle</h5>
+              <p>It’s approximately 5–10 minutes from the city center, with tricycles available throughout Surigao City for convenient transport to the venue.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="travel-info">
+              <div class="travel-icon">
+                <i class="bi bi-car-front-fill"></i>
+              </div>
+              <h5>By Car</h5>
+              <p>Convenient access via I-90 and I-94. Complimentary valet parking available for all registered attendees.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row mt-5">
+          <div class="col-lg-12">
+            <div class="accommodation-section">
+              <h4>Recommended Accommodations</h4>
+              <div class="row">
+
+                <div class="col-lg-4">
+                  <div class="hotel-card">
+                    <img src="assets/img/events/library.jpg" alt="The Metropolitan Hotel" class="img-fluid">
+                    <div class="hotel-info">
+                      <h6>SNSU Library</h6>
+                      <div class="hotel-distance">
+                        <i class="bi bi-geo-alt"></i>
+                        <span>0.2 miles from venue</span>
+                      </div>
+                      <div class="hotel-price">
+                        <span>From ₱500/day</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4">
+                  <div class="hotel-card">
+                    <img src="assets/img/events/LRC.jpg" alt="Downtown Plaza Suites" class="img-fluid">
+                    <div class="hotel-info">
+                      <h6>Learning Resource Center</h6>
+                      <div class="hotel-distance">
+                        <i class="bi bi-geo-alt"></i>
+                        <span>0.5 miles from venue</span>
+                      </div>
+                      <div class="hotel-price">
+                        <span>From ₱400/day</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4">
+                  <div class="hotel-card">
+                    <img src="assets/img/events/eb.jpg" alt="Business Inn Chicago" class="img-fluid">
+                    <div class="hotel-info">
+                      <h6>Room EB 207</h6>
+                      <div class="hotel-distance">
+                        <i class="bi bi-geo-alt"></i>
+                        <span>0.8 miles from venue</span>
+                      </div>
+                      <div class="hotel-price">
+                        <span>From ₱300/day</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Venue 2 Section -->
+
+  </main>
+
+ <footer id="footer" class="footer position-relative dark-background">
+
+        <div class="container footer-top">
+            <div class="row gy-4">
+                <div class="col-lg-4 col-md-6 footer-about">
+                    <a href="index.html" class="logo d-flex align-items-center">
+                        <span class="sitename">FINAL PROJECT</span>
+                    </a>
+                    <div class="footer-contact pt-3">
+                        <p>Narciso Street, Surigao, 8400 Surigao del Norte</p>
+                        <p class="mt-3"><strong>Phone:</strong> <span>+63 9123456789</span></p>
+                        <p><strong>Email:</strong> <span>info@example.com</span></p>
+                    </div>
+                    <div class="social-links d-flex mt-4">
+                        <a href=""><i class="bi bi-twitter-x"></i></a>
+                        <a href=""><i class="bi bi-facebook"></i></a>
+                        <a href=""><i class="bi bi-instagram"></i></a>
+                        <a href=""><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-3 footer-links">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Terms of service</a></li>
+                        <li><a href="#">Privacy policy</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container copyright text-center mt-4">
+            <p>© <span>Copyright</span> <strong class="px-1 sitename">MyWebsite</strong> <span>All Rights
+                    Reserved</span></p>
+            <div class="credits">
+                <!-- All the links in the footer should remain intact. -->
+                <!-- You can delete the links only if you've purchased the pro version. -->
+                <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+                Designed by <strong class="px-1 sitename">Group 4</strong>
+            </div>
+        </div>
+
+    </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
